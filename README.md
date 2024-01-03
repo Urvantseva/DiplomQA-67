@@ -26,10 +26,11 @@
 2. Запустить Docker.
 3. Открыть проект в IntelliJ IDEA.
 4. В терминале IntelliJ IDEA запустить необходимые базы данных и нужные контейнеры командой `docker-compose up`.
-5. В новой вкладке терминала ввести следующие команды:
+5. В терминале IntelliJ IDEA запустить команду `git add -f artifacts/aqa-shop.jar`.
+6. В новой вкладке терминала ввести следующие команды:
 - `java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar artifacts/aqa-shop.jar`.
 - `java "-Dspring.datasource.url=jdbc:postgresql://localhost:5432/app" -jar artifacts/aqa-shop.jar`.
-6. Проверить доступность приложения в браузере по адресу: `http://localhost:8080/`.
+7. Проверить доступность приложения в браузере по адресу: `http://localhost:8080/`.
 
 ## Запуск тестов:
 
